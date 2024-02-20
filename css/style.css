@@ -1,7 +1,12 @@
 #container {
 	border: black solid 1px;
 	display: flex;
-	height: 700px;
-	width: 700px;
+	height: 672px;
+	width: 672px;
 	flex-wrap: wrap;
 }
+
+#container>div {
+	flex: 1 1 1;
+}
+
